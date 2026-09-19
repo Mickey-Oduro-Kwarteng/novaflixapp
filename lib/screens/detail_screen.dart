@@ -1,3 +1,6 @@
+import 'package:flutter/material.dart';
+import '../models/movie.dart';
+
 class DetailScreen extends StatelessWidget {
   final Movie movie;                       // <- received via constructor
   const DetailScreen({super.key, required this.movie});
